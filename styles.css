@@ -55,7 +55,7 @@ a:hover {
 }
 
 a:visited {
-  color: #27AE60;
+  color: white;
 }
 
 .yogastudio {
@@ -90,14 +90,34 @@ a:visited {
 }
 
 @media (max-width: 500px) {
+  .yoga-header {
+    width: auto;
+    margin: 10vh 0;
+    padding: 0;
+  }
+
   .menu-container {
-     width: 80%;
+    /*border: 1px solid black;*/
+    width: 100vw;
+    margin-bottom: 15%;
+    padding: 10% 0;
+    background-color: #F4D03F;
+  }
+
+  .menu-container li {
+    list-style: none;
+    display: block;
+    /*border: 1px solid red;*/
+    color: white;
   }
 
   .navigation {
-    padding: 40px 0 5px 0;
+    height: 36vh;
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
   }
 
