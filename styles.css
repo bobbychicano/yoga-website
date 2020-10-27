@@ -18,6 +18,7 @@ body {
   text-align: center;
 }
 
+/* Need a very different font for the header. It currently looks like the title of a bakery.*/
 h1 {
   color: #F4D03F;
   font-family: "Sacramento", cursive;
@@ -89,7 +90,7 @@ a:visited {
   width: 50px;
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 812px) {
   .yoga-header {
     width: auto;
     margin: 10vh 0;
