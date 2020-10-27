@@ -12,9 +12,22 @@
 figure,
 .menu-container {
   width: 100%;
+  margin: 10% 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.menu-container,
+.location {
+  width: 100%;
+  background-color: #F4D03F;
+  color: white;
+  padding: 10% 0;
+}
+
+.menu-container li {
+  padding: 30% 0;
 }
 
 figure img {
@@ -24,6 +37,7 @@ figure img {
 header,
 footer {
   width: 100%;
+  margin: 20% 0 10% 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +60,12 @@ a {
   display: block;
 }
 
+a:visited {
+  color: white;
+}
+
 .location {
+  margin-bottom: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
