@@ -21,6 +21,7 @@ figure,
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .menu-container,
@@ -76,6 +77,7 @@ a:visited {
   align-items: center;
   text-align: center;
   font-size: 0.8rem;
+  color: white;
 }
 
 .social-media ul {
