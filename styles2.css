@@ -9,12 +9,16 @@
   flex-wrap: wrap;
 }
 
-.menu-container,
-figure {
+figure,
+.menu-container {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+figure img {
+  width: 100%;
 }
 
 header,
@@ -23,7 +27,13 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid black;
+}
+
+ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -33,10 +43,7 @@ li {
 
 a {
   text-decoration: none;
-}
-
-.social-media img {
-  width: 100%;
+  display: block;
 }
 
 .location {
@@ -44,4 +51,18 @@ a {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.social-media ul {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media li {
+  width: 12%;
+  margin: 0 4%;
+}
+
+.social-media img {
+  width: 100%;
 }
