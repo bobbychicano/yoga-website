@@ -1,3 +1,7 @@
+
+
+/* Add style rule to change the color of the phone number text to white */
+
 * {
   margin: 0;
   padding: 0;
@@ -78,6 +82,11 @@ a:visited {
   text-align: center;
   font-size: 0.8rem;
   color: white;
+}
+
+.address:last-child {
+  font-style: normal;
+  text-decoration: none;
 }
 
 .social-media ul {
