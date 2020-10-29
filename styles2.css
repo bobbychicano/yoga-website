@@ -85,7 +85,7 @@ a:visited {
 }
 
 .address:last-child {
-  font-style: normal;
+  color: white;
   text-decoration: none;
 }
 
