@@ -36,8 +36,8 @@ figure,
   padding: 10% 0;
 }
 
-.menu-container li {
-  padding: 30% 0;
+.navigation li {
+  padding: 3%;
 }
 
 figure img {
@@ -54,10 +54,13 @@ footer {
 }
 
 ul {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 li {
@@ -68,6 +71,12 @@ li {
 a {
   text-decoration: none;
   display: block;
+  width: 100%;
+  padding: 5px;
+}
+
+a:active {
+  border: 2px solid white;
 }
 
 a:visited {
