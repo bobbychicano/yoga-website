@@ -127,17 +127,23 @@ footer {
 @media screen and (min-width: 960px) {
   .yoga-header {
     font-size: 1.5rem;
-    margin-top: 8%;
+    margin: 10% 0 20% 0;
   }
 
   .photo {
-    text-align: center;
-    margin: 4% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% 0 0 0;
   }
 
   .menu-container {
     margin: 0;
     padding: 2.5%;
+  }
+
+  .studio {
+    margin: 20% 0;
   }
 
   .navigation {
@@ -164,18 +170,18 @@ footer {
   }
 
   footer {
-    margin-bottom: 5%;
+    margin: 0 0 5% 0;
   }
 
   .location {
-    margin-bottom: 5%;
+    margin: 0;
     padding: 5% 0;
     font-size: 1rem;
   }
 
   .yoga-pillows {
     text-align: center;
-    margin: 10% 0;
+    margin: 20% 0;
   }
 
   .social-media li {
