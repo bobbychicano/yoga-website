@@ -108,6 +108,12 @@ img {
 @media screen and (min-width: 960px) {
   .yoga-header {
     font-size: 1.5rem;
+    margin-top: 8%;
+  }
+
+  .photo {
+    text-align: center;
+    margin: 4%;
   }
 
   .menu-container {
