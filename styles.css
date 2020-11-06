@@ -132,7 +132,7 @@ footer {
 
   .photo {
     text-align: center;
-    margin: 4%;
+    margin: 4% 0;
   }
 
   .menu-container {
@@ -159,18 +159,23 @@ footer {
     text-decoration: underline;
   }
 
-  img {
+  .social-media img {
     width: 50%;
   }
 
   footer {
-    margin: 0 0 5% 0;
+    margin-bottom: 5%;
   }
 
   .location {
     margin-bottom: 5%;
     padding: 5% 0;
     font-size: 1rem;
+  }
+
+  .yoga-pillows {
+    text-align: center;
+    margin: 10% 0;
   }
 
   .social-media li {
